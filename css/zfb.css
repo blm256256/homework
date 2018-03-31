@@ -1,0 +1,217 @@
+body {
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: "Microsoft YaHei", Arial;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.viewport {
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.nav {
+  width: 20rem;
+  height: 7rem;
+  background-color: #3072db;
+  position: relative;
+}
+.nav .bignav {
+  width: 20rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 3.1rem;
+}
+.nav .bignav span {
+  font-size: 0.8rem;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.nav .bignav img {
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 0.7rem;
+}
+.nav .bignav .sys {
+  width: 3.6rem;
+  height: 3.5rem;
+  float: left;
+  margin: 0 0.7rem;
+}
+.nav .bignav .fq {
+  width: 3.6rem;
+  height: 3.5rem;
+  float: left;
+  margin: 0 0.7rem;
+}
+.nav .bignav .fq span {
+  padding: 0.9rem;
+}
+.nav .bignav .sq {
+  width: 3.6rem;
+  height: 3.5rem;
+  float: left;
+  margin: 0 0.7rem;
+}
+.nav .bignav .sq span {
+  padding: 0.9rem;
+}
+.nav .bignav .kb {
+  width: 3.6rem;
+  height: 3.5rem;
+  float: left;
+  margin: 0 0.7rem;
+}
+.nav .bignav .kb span {
+  padding: 0.9rem;
+}
+.nav input {
+  width: 15rem;
+  height: 1.2rem;
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+  background-color: #535381;
+  border: 1px solid #535381;
+  float: left;
+}
+.nav .lxr {
+  width: 1.3rem;
+  height: 1.4rem;
+  margin-left: 0.6rem;
+  float: left;
+  margin-top: 0.7rem;
+}
+.nav .jh {
+  width: 1.3rem;
+  height: 1.4rem;
+  margin-left: 0.6rem;
+  float: left;
+  margin-top: 0.7rem;
+}
+.container {
+  width: 20rem;
+  height: 11rem;
+}
+.container .xykhd span {
+  padding: 0;
+}
+.container .czzx span {
+  padding: 0.2rem;
+}
+.container .yeb span {
+  padding: 0.5rem;
+}
+.container span {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.1rem;
+  padding-left: 0.7rem;
+}
+.container img {
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 0.7rem;
+}
+.container div {
+  width: 3.5rem;
+  height: 2.5rem;
+  float: left;
+  margin-top: 0.9rem;
+  margin-right: 0.6rem;
+  margin-left: 0.9rem;
+}
+.passage {
+  width: 20rem;
+  height: 4.5rem;
+  background-color: #f8f2f2;
+  position: relative;
+}
+.passage .passage-container {
+  width: 20rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 0.5rem;
+  background-color: white;
+}
+.passage .passage-container li {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: black;
+  float: left;
+}
+.passage .passage-container img {
+  vertical-align: middle;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+  float: left;
+}
+.bigbox {
+  width: 20rem;
+  height: 5rem;
+  background-color: #f8f2f2;
+}
+.bigbox .box {
+  width: 20rem;
+  height: 4.5rem;
+  position: relative;
+  background-color: white;
+}
+.bigbox .box .lunbobox {
+  width: 320px;
+  height: 72.4px;
+}
+.bigbox .box .lunbobox .obj {
+  position: absolute;
+  z-index: 2;
+}
+.bigbox .box .lunbobox .nobj {
+  position: absolute;
+  z-index: 0;
+  display: none;
+}
+.bigbox .box .div1 {
+  width: 0.6rem;
+  height: 0.2rem;
+  background-color: blue;
+  position: absolute;
+  top: 4rem;
+  left: 8.8rem;
+  float: left;
+  z-index: 3;
+}
+.bigbox .box .div2 {
+  width: 0.4rem;
+  height: 0.2rem;
+  background-color: #bababd;
+  position: absolute;
+  top: 4rem;
+  left: 9.8rem;
+  float: left;
+  z-index: 3;
+}
+.bigbox .box img {
+  float: left;
+  margin-top: -2.3rem;
+  margin-left: 1.2rem;
+}
+.bigbox .box li {
+  list-style: none;
+  float: left;
+}
+.bigbox .box .li1 {
+  font-size: 1.1rem;
+  font-weight: 550;
+  margin-top: 1rem;
+}
+.bigbox .box .li1 span {
+  color: blue;
+}
+.bigbox .box .li2 {
+  font-size: 0.8rem;
+  color: gray;
+}
